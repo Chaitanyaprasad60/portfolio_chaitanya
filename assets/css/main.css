@@ -2320,3 +2320,35 @@ button,
   right: 2vw;
   bottom: 5vh;
 }
+
+@media screen and (max-width: 475px) {
+
+  .projectI{
+    width: 80vw;
+  }
+
+  .actions{
+    display: flex;
+    flex-direction: column;
+  }
+  .actions > li{
+    margin: 1vh;
+  }
+  #experience > h4{
+    margin: 0;
+    display: block !important;
+    float: none !important;
+  }
+  #scroll-to-top {
+    width: 5vw;
+    right: 2vw;
+    bottom: 5vh;
+  }
+
+
+  .features > article > span{
+    
+    display: none !important;
+  }
+
+}
