@@ -142,7 +142,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   line-height: 1.5;
-  margin: 0 0 1em 0; }
+  margin: 0 0 1em 0; 
+  display: inline-block;
+}
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none;
@@ -1272,6 +1274,20 @@ ol {
   ol li {
     padding-left: 0.25em; }
 
+
+.projectI{
+  width: 40vw;
+  height: 40vh;
+  border: solid #3d4449;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.project > p {
+  margin: 2vh 0vw;
+}
+
 ul {
   list-style: disc;
   margin: 0 0 2em 0;
@@ -2296,4 +2312,11 @@ button,
 
 .project > .actions  {
   bottom: 0px;
+}
+
+#scroll-to-top {
+  position: fixed;
+  width: 3vw;
+  right: 2vw;
+  bottom: 5vh;
 }
