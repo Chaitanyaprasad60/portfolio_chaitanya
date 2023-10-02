@@ -2321,6 +2321,10 @@ button,
   bottom: 5vh;
 }
 
+#header > a {
+    display: inline-block !important;
+}
+
 @media screen and (max-width: 475px) {
 
   .projectI{
@@ -2350,5 +2354,7 @@ button,
     
     display: none !important;
   }
+
+
 
 }
